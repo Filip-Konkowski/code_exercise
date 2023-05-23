@@ -1,0 +1,1 @@
+/Users/filipkonkowski/source/code_exercise/productExceptSelf/src/test/kotlin/SolutionTest.kt
