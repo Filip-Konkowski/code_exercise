@@ -13,7 +13,7 @@ object Solution {
             rest[i] *= post
             post *= nums[i]
         }
-println(rest[1])
+
         return rest
     }
 }
