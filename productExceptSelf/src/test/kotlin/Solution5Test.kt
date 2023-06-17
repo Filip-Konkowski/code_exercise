@@ -11,5 +11,13 @@ class Solution5Test
 
             )
 
+    @Test
+    fun `check single number two`() =
+            assertProductEquals(
+                    intArrayOf(2),
+                    2,
+
+                    )
+
     private fun assertProductEquals(origin: IntArray, result: Int) = assertEquals(result, Solution5.singleNumber(origin))
 }
