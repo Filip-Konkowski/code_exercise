@@ -16,7 +16,6 @@ class Solution5Test
             assertProductEquals(
                     intArrayOf(2),
                     2,
-
                     )
 
     private fun assertProductEquals(origin: IntArray, result: Int) = assertEquals(result, Solution5.singleNumber(origin))
