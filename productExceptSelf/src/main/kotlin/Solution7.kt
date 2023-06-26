@@ -17,7 +17,6 @@ object Solution7 {
             if (s[right].toLowerCase() != s[left].toLowerCase()) {
                 return false
             }
-
             left++
             right--
         }
