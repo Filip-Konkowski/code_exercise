@@ -15,7 +15,7 @@ class ExampleWithCancellationException {
             if (e is CancellationException) {
                 throw e // here we need to remember to propagate exceptions
             }
-            println("Oops, that didn't work")
+            println("Oops, that didn't work.")
         }
     }
     fun main() = runBlocking {
@@ -27,7 +27,7 @@ class ExampleWithCancellationException {
                     ensureActive() // Check for cancellation
                 }
             } catch (e: CancellationException) {
-                println("Coroutine was cancelled")
+                println("Coroutine was cancelled.")
             }
         }
 
@@ -35,6 +35,6 @@ class ExampleWithCancellationException {
         job.cancel() // Cancel the coroutine
 
         job.join() // Wait for the coroutine to finish
-        println("Coroutine completed")
+        println("Coroutine completed.")
     }
 }
